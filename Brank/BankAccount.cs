@@ -1,5 +1,5 @@
 ﻿using System;
-
+///lalalallal
 namespace BankAccountNS
 {
     /// <summary>
@@ -7,6 +7,8 @@ namespace BankAccountNS
     /// </summary>
     public class BankAccount
     {
+        public const string DebitAmountExceedsBalanceMessage = "Debit amount exceeds balance";
+        public const string DebitAmountLessThanZeroMessage = "Debit amount is less than zero";
         private readonly string m_customerName;
         private double m_balance;
 
@@ -16,6 +18,7 @@ namespace BankAccountNS
         {
             m_customerName = customerName;
             m_balance = balance;
+
         }
 
         public string CustomerName
@@ -29,14 +32,14 @@ namespace BankAccountNS
 
         public void Debit(double amount)
         {
-            if (amount > m_balance)
-            {
-                throw new ArgumentOutOfRangeException("amount");
+            if(amount > m_balance)
+{
+                throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountExceedsBalanceMessage);
             }
 
             if (amount < 0)
             {
-                throw new ArgumentOutOfRangeException("amount");
+                throw new System.ArgumentOutOfRangeException("amount", amount, DebitAmountLessThanZeroMessage);
             }
 
             m_balance -= amount; // intentionally incorrect code

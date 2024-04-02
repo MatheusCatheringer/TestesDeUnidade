@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brank", "Brank\Brank.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTests", "BankTests\BankTests.csproj", "{4803F82E-F1AE-42B5-9B80-DC5DCF24D892}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraCientifica", "CalculadoraCientifica\CalculadoraCientifica.csproj", "{7A443477-43F7-46B2-8EAF-951399E3C44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraCientificaTests", "CalculadoraCientificaTests\CalculadoraCientificaTests.csproj", "{664B9ADD-7C98-4521-A1E0-89CF0972A018}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{4803F82E-F1AE-42B5-9B80-DC5DCF24D892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4803F82E-F1AE-42B5-9B80-DC5DCF24D892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4803F82E-F1AE-42B5-9B80-DC5DCF24D892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A443477-43F7-46B2-8EAF-951399E3C44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A443477-43F7-46B2-8EAF-951399E3C44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A443477-43F7-46B2-8EAF-951399E3C44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A443477-43F7-46B2-8EAF-951399E3C44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664B9ADD-7C98-4521-A1E0-89CF0972A018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664B9ADD-7C98-4521-A1E0-89CF0972A018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664B9ADD-7C98-4521-A1E0-89CF0972A018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664B9ADD-7C98-4521-A1E0-89CF0972A018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
